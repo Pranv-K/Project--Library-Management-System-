@@ -30,9 +30,7 @@ int main()
 
         switch (choice) {
         case 1:
-            if (count == MAX) {
-                printf("Cannot book: storage full (%d bookings).\n", MAX);
-                break;
+           
             }
             printf("Enter organiser name: ");
             scanf(" %29[^\n]", organiser[count]);
